@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"CoinFlipHack.sol": "CoinFlipHack"
+			"coinFlip/CoinFlipHack.sol": "CoinFlipHack"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"CoinFlipHack.sol": {
+		"coinFlip/CoinFlipHack.sol": {
 			"keccak256": "0xb4d2c107b8f7bf2899ef7cac2092e5b3a063afcc1c670c7a9d305c4620411fdb",
 			"license": "GPL-3.0",
 			"urls": [
