@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "makeCall",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"telephone/TelephoneProxy.sol": "TelephoneProxy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"telephone/TelephoneProxy.sol": {
+			"keccak256": "0x032206aad3ee03f8a69dd171c57dff42ff259cc7602a2193cb5fd604386e2e84",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://43378e5d520b673bf5adbea8d579cd728b2a1914f040d4423690e158279787ea",
+				"dweb:/ipfs/QmQSoQtWH6dwg6BgURBbU2vUFxCnJRpB6y2HZm3JZn8aF2"
+			]
+		}
+	},
+	"version": 1
+}
