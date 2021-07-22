@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_hackMe",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "call",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"delegation/ClaimOwnership.sol": "ClaimOwnership"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"delegation/ClaimOwnership.sol": {
+			"keccak256": "0x204e6863dbc4f7d598d5f88b796fbb608c87bcb7673aba39f05f9a0e537a6a8f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3868f45ac45c53e9d95edb94db09aa020362ab78ddc603c1ce9f6a03e04a595e",
+				"dweb:/ipfs/QmaF9TBieJwcCErp7sMgWJeRKCQ7VSqtjU1BuV7s4bf9vw"
+			]
+		}
+	},
+	"version": 1
+}
