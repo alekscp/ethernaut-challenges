@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_elevator",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_floor",
+						"type": "uint256"
+					}
+				],
+				"name": "isLastFloor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_fakeTopFloor",
+						"type": "uint256"
+					}
+				],
+				"name": "toTheTop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"elevator/ZeBuilding.sol": "Building"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"elevator/ZeBuilding.sol": {
+			"keccak256": "0x611afc43ba6f86abb2a2c529fff90523cab7ab000adacd1ae98a4ddaef047108",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://65505e2d2a0bbd0eae18ca61434e38ac88bf7661e9453a71b06fc794c5b963f1",
+				"dweb:/ipfs/QmPohhqYY88PyK3n3KnKJXRzxPzeCNyKTqwDWdxiWSn1yi"
+			]
+		}
+	},
+	"version": 1
+}
